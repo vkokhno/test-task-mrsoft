@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  width: 70%;
+  height: min-content;
+  padding: 50px;
+}
+
+.main__name {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.main__info {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.main__bio {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.main__photo {
+  grid-area: 1 / 2 / 4 / 3;
+  justify-self: center;
+  border-radius: 100%;
+  width: 200px;
+}
